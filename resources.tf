@@ -9,7 +9,7 @@ value=var.var2
 }
 
 locals {
-  var3=var.var2
+  var3= upper(var.var2)
 }
 
 output "local" {
